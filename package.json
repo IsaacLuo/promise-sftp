@@ -41,6 +41,7 @@
     "iojs": "*"
   },
   "scripts": {
+    "prepare": "coffee --compile --output dist/ lib/",
     "prepublish": "coffee --compile --output dist/ lib/",
     "dev": "coffee --watch --output dist lib/"
   }
